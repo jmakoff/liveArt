@@ -1,2 +1,3 @@
 # liveArt
-LiveArt test task
+
+`npm start` to start the project
