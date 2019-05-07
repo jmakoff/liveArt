@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+  <style>
+    @import url("//unpkg.com/element-ui@2.7.2/lib/theme-chalk/index.css");
+    body {
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+    }
+    .wrapper {
+      display: grid;
+      grid-template-columns: 400px 400px 400px;
+      column-gap: 15px;
+    }
+    #app {
+      max-width: 400px;
+    }
+    canvas#fabric-canvas {
+      background: white;
+      border: 1px solid #e0e4ee;
+      height: 400px;
+      width: 400px;
+    }
+  </style>
+  <body>
+    <div id="app"></div>
+    <script src="src/index.ts"></script>
+  </body>
+</html>
